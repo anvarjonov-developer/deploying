@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url(https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Jost', sans-serif;
+}
+.header{
+    max-width: 1140px;
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    box-shadow:15px 15px 15px rgba(0, 0, 0, 0.15);
+    align-items: center;
+
+
+}
+.logo{
+    font-size: 40px;
+    background-color: crimson;
+    color: white;
+    padding: 15px 30px;
+}
+button{
+    background-color: crimson;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 30px;
+    color: white;
+
+}
